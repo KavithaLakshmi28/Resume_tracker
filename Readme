@@ -2,9 +2,26 @@
 
 This project compares a resume with a job description (JD) to compute a similarity score, helping candidates tailor their resumes for specific job roles. It uses simple NLP techniques to calculate the match percentage between two `.docx` files (one resume and one JD).
 
-## 🛠 Features
+# Features
 
 - Reads both resume and JD from `.docx` format
 - Cleans and vectorizes text using `CountVectorizer`
 - Computes cosine similarity between resume and JD
 - Outputs a match percentage.
+
+
+
+
+#Technologies Used
+
+- Python 3.x
+- `docx2txt` for reading `.docx` files
+- `scikit-learn` for text vectorization and similarity calculation
+
+#Installation
+
+1. **Clone the repository** (or just place your files in a folder):
+
+```bash
+git clone https://github.com/yourusername/resume-jd-checker.git
+cd resume-jd-checker
