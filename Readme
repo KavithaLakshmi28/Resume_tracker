@@ -1,1 +1,10 @@
+# Resume and Job Description Compatibility Checker
 
+This project compares a resume with a job description (JD) to compute a similarity score, helping candidates tailor their resumes for specific job roles. It uses simple NLP techniques to calculate the match percentage between two `.docx` files (one resume and one JD).
+
+## 🛠 Features
+
+- Reads both resume and JD from `.docx` format
+- Cleans and vectorizes text using `CountVectorizer`
+- Computes cosine similarity between resume and JD
+- Outputs a match percentage.
